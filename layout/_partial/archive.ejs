@@ -1,0 +1,38 @@
+<%
+var title = '';
+if (page.category) title = page.category;
+if (page.tag) title = page.tag;
+if (page.archive){
+  if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+  else title = __('archive_a');
+}
+%>
+<h2 class="archive-title<% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>"><%= title %></h2>
+
+<% if (pagination == 2){ %>
+  <% page.posts.each(function(item){ %>
+    <%- partial('article', {item: item, index: true}) %>
+  <% }); %>
+
+  <%- partial('pagination') %>
+<% } else { %>
+  <div class="archive">
+    <% page.posts.each(function(item){ %>
+      <article class="<%= item.layout %>">
+        <div class="post-content">
+          <header>
+            <% if (item.link){ %>
+              <% if (item.title){ %>
+                <h2 class="title link"><span datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></span><a href="<%- item.link %>" target="_blank"><%= item.title %></a></h1>
+              <% } else { %>
+                <h2 class="title link"><span datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></span><a href="<%- item.link %>" target="_blank"><%= item.link %></a></h1>
+              <% } %>
+            <% } else { %>
+              <h2 class="archive-post"><span datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></span><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></h1>
+            <% } %>
+          </header>
+        </div>
+      </article>
+    <% }); %>
+  </div>
+<% } %>
