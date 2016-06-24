@@ -4,23 +4,56 @@
   
   <link href="/hexo-theme-concise/atom.xml" rel="self"/>
   
-  <link href="https://hmybmny.github.io/hexo-theme-concise/"/>
-  <updated>2016-06-23T01:24:48.682Z</updated>
-  <id>https://hmybmny.github.io/hexo-theme-concise/</id>
+  <link href="https://hmybmny.github.io/"/>
+  <updated>2016-06-24T16:42:34.633Z</updated>
+  <id>https://hmybmny.github.io/</id>
   
   <author>
     <name>HmyBmny</name>
-    <email>hmybmny@gmail.com</email>
+    
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Usage of Concise</title>
+    <link href="https://hmybmny.github.io/2016/06/10/usage/"/>
+    <id>https://hmybmny.github.io/2016/06/10/usage/</id>
+    <published>2016-06-09T16:00:00.000Z</published>
+    <updated>2016-06-24T16:42:34.633Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;hexo-theme-concise&quot;&gt;&lt;a href=&quot;#hexo-theme-concise&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-concise&quot;&gt;&lt;/a&gt;hexo-theme-concise&lt;/h2&gt;&lt;h3 id=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;a href=&quot;#一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot; class=&quot;headerlink&quot; title=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;/a&gt;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到&lt;a href=&quot;http://v2ex.com/t/288048&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;V2EX&lt;/a&gt;讨论，谢谢！&lt;/h3&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;执行以下命令并更新_confing.yml，将theme改为concise&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/HmyBmny/hexo-theme-concise.git themes/concise&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;为了确保RSS能够正常使用，你需要将hexo-generator-feed及其版本信息添加到package.json中，确保该文件具有以下形式：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;quot;name&amp;quot;: &amp;quot;hexo-site&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;quot;version&amp;quot;: &amp;quot;0.0.0&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;quot;private&amp;quot;: true,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;quot;hexo&amp;quot;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;quot;version&amp;quot;: &amp;quot;3.2.0&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;quot;dependencies&amp;quot;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;quot;hexo-generator-feed&amp;quot;: &amp;quot;^1.1.0&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果你的页面如搜索框显示的语言你不认识，那么你将language: default添加到_config.yam中，或者其它你想要显示的语言都行。&lt;/p&gt;
+&lt;p&gt;在你写文章的过程中，如果你的文章太长或者你希望你的网站的主页仅显示你文章的一部份，那么你可以让主页显示Read More ›，你只需要在你想要对文章进行分割的部分添加&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;即可，此时你的文章格式应当类似于以下格式：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;title: 你的文章标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 文章发布时间&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tags:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 这是一个标签&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;category:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 这是一个分类&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这一部分显示在你的主页上&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这一部分需要点击Read More ›才会显示&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;如果你的文章较长，并且没有使用&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;那么效果就会是这样的&lt;br&gt;&lt;a href=&quot;https://hmybmny.github.io/hexo-tag-video_cn/&quot;&gt;https://hmybmny.github.io/hexo-tag-video_cn/&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;hexo-theme-concise&quot;&gt;&lt;a href=&quot;#hexo-theme-concise&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-concise&quot;&gt;&lt;/a&gt;hexo-theme-concise&lt;/h2&gt;&lt;h3 id=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;a href=&quot;#一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot; class=&quot;headerlink&quot; title=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;/a&gt;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到&lt;a href=&quot;http://v2ex.com/t/288048&quot;&gt;V2EX&lt;/a&gt;讨论，谢谢！&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="Concise" scheme="https://hmybmny.github.io/categories/Concise/"/>
+    
+    
+      <category term="hexo" scheme="https://hmybmny.github.io/tags/hexo/"/>
+    
+      <category term="theme" scheme="https://hmybmny.github.io/tags/theme/"/>
+    
+  </entry>
+  
+  <entry>
     <title>黄忠</title>
-    <link href="https://hmybmny.github.io/hexo-theme-concise/2016/06/05/huang-zhong/"/>
-    <id>https://hmybmny.github.io/hexo-theme-concise/2016/06/05/huang-zhong/</id>
+    <link href="https://hmybmny.github.io/2016/06/05/huang-zhong/"/>
+    <id>https://hmybmny.github.io/2016/06/05/huang-zhong/</id>
     <published>2016-06-04T16:00:00.000Z</published>
-    <updated>2016-06-23T01:24:48.682Z</updated>
+    <updated>2016-06-23T01:24:48.000Z</updated>
     
     <content type="html">&lt;p&gt;黄忠（生年不详－220年），字汉升，荆州南阳郡（今河南省南阳市）人，三国时期蜀汉的著名将领。本为东汉末年群雄刘表部下中郎将，长沙太守韩玄部下将领，后成为刘备部将，历任讨虏将军、征西将军，官至后将军，去世后谥号为刚侯。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -32,21 +65,21 @@
     
     </summary>
     
-      <category term="五虎上将" scheme="https://hmybmny.github.io/hexo-theme-concise/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
+      <category term="五虎上将" scheme="https://hmybmny.github.io/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
     
     
-      <category term="三国" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://hmybmny.github.io/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="黄忠" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E9%BB%84%E5%BF%A0/"/>
+      <category term="黄忠" scheme="https://hmybmny.github.io/tags/%E9%BB%84%E5%BF%A0/"/>
     
   </entry>
   
   <entry>
     <title>马超</title>
-    <link href="https://hmybmny.github.io/hexo-theme-concise/2016/06/04/ma-chao/"/>
-    <id>https://hmybmny.github.io/hexo-theme-concise/2016/06/04/ma-chao/</id>
+    <link href="https://hmybmny.github.io/2016/06/04/ma-chao/"/>
+    <id>https://hmybmny.github.io/2016/06/04/ma-chao/</id>
     <published>2016-06-03T16:00:00.000Z</published>
-    <updated>2016-06-23T01:25:36.546Z</updated>
+    <updated>2016-06-23T01:25:36.000Z</updated>
     
     <content type="html">&lt;p&gt;马超（176年－222年），字孟起，扶风茂陵（今陕西省兴平东北）人，汉末及三国时期蜀汉著名的将领。陈寿在撰写《三国志》的时候，将马超与关羽、张飞、黄忠、赵云合为一传（《三国志·蜀书·关张马黄赵传》）。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -59,21 +92,21 @@
     
     </summary>
     
-      <category term="五虎上将" scheme="https://hmybmny.github.io/hexo-theme-concise/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
+      <category term="五虎上将" scheme="https://hmybmny.github.io/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
     
     
-      <category term="三国" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://hmybmny.github.io/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="马超" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E9%A9%AC%E8%B6%85/"/>
+      <category term="马超" scheme="https://hmybmny.github.io/tags/%E9%A9%AC%E8%B6%85/"/>
     
   </entry>
   
   <entry>
     <title>赵云</title>
-    <link href="https://hmybmny.github.io/hexo-theme-concise/2016/06/03/zhao-yun/"/>
-    <id>https://hmybmny.github.io/hexo-theme-concise/2016/06/03/zhao-yun/</id>
+    <link href="https://hmybmny.github.io/2016/06/03/zhao-yun/"/>
+    <id>https://hmybmny.github.io/2016/06/03/zhao-yun/</id>
     <published>2016-06-02T16:00:00.000Z</published>
-    <updated>2016-06-23T01:25:20.594Z</updated>
+    <updated>2016-06-23T01:25:20.000Z</updated>
     
     <content type="html">&lt;p&gt;赵云（生年不详－229年），字子龙，常山真定（今河北省正定县）人，身高八尺，姿颜雄伟，是三国时期蜀汉的名将。陈寿在撰写《三国志》的时候，将赵云与关羽、张飞、马超、黄忠的事迹合记成一传（《三国志·蜀书·关张马黄赵传》）在道教又称赵圣帝君.永昌君。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -85,21 +118,21 @@
     
     </summary>
     
-      <category term="五虎上将" scheme="https://hmybmny.github.io/hexo-theme-concise/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
+      <category term="五虎上将" scheme="https://hmybmny.github.io/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
     
     
-      <category term="三国" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://hmybmny.github.io/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="赵云" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E8%B5%B5%E4%BA%91/"/>
+      <category term="赵云" scheme="https://hmybmny.github.io/tags/%E8%B5%B5%E4%BA%91/"/>
     
   </entry>
   
   <entry>
     <title>张飞</title>
-    <link href="https://hmybmny.github.io/hexo-theme-concise/2016/06/02/zhang-fei/"/>
-    <id>https://hmybmny.github.io/hexo-theme-concise/2016/06/02/zhang-fei/</id>
+    <link href="https://hmybmny.github.io/2016/06/02/zhang-fei/"/>
+    <id>https://hmybmny.github.io/2016/06/02/zhang-fei/</id>
     <published>2016-06-01T16:00:00.000Z</published>
-    <updated>2016-06-23T01:25:08.190Z</updated>
+    <updated>2016-06-23T01:25:08.000Z</updated>
     
     <content type="html">&lt;p&gt;张飞（168年－221年），字益德（小说《三国演义》为翼德），东汉末年幽州涿郡（今河北省保定市涿州市）人氏，三国时期蜀汉名将，与关羽并称“万人敌”[1]。官至车骑将军、领司隶校尉，封西乡侯，后遇刺身亡，追谥“桓侯”。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -112,21 +145,21 @@
     
     </summary>
     
-      <category term="五虎上将" scheme="https://hmybmny.github.io/hexo-theme-concise/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
+      <category term="五虎上将" scheme="https://hmybmny.github.io/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
     
     
-      <category term="三国" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://hmybmny.github.io/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="张飞" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E5%BC%A0%E9%A3%9E/"/>
+      <category term="张飞" scheme="https://hmybmny.github.io/tags/%E5%BC%A0%E9%A3%9E/"/>
     
   </entry>
   
   <entry>
     <title>关羽</title>
-    <link href="https://hmybmny.github.io/hexo-theme-concise/2016/06/01/guan-yu/"/>
-    <id>https://hmybmny.github.io/hexo-theme-concise/2016/06/01/guan-yu/</id>
+    <link href="https://hmybmny.github.io/2016/06/01/guan-yu/"/>
+    <id>https://hmybmny.github.io/2016/06/01/guan-yu/</id>
     <published>2016-05-31T16:00:00.000Z</published>
-    <updated>2016-06-23T01:24:16.742Z</updated>
+    <updated>2016-06-24T13:50:12.349Z</updated>
     
     <content type="html">&lt;p&gt;关羽（约160年?－220年）[1]，字云长，本字长生，司隶河东解人（今山西省运城市），约生于东汉桓帝延熹年间[2]，东汉末年三国时期刘备的重要将领。与张飞并称“万人敌”（见《三国志‧魏书‧程昱传》：“关羽、张飞皆万人敌也。”）。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -139,12 +172,12 @@
     
     </summary>
     
-      <category term="五虎上将" scheme="https://hmybmny.github.io/hexo-theme-concise/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
+      <category term="五虎上将" scheme="https://hmybmny.github.io/categories/%E4%BA%94%E8%99%8E%E4%B8%8A%E5%B0%86/"/>
     
     
-      <category term="三国" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E4%B8%89%E5%9B%BD/"/>
+      <category term="三国" scheme="https://hmybmny.github.io/tags/%E4%B8%89%E5%9B%BD/"/>
     
-      <category term="关羽" scheme="https://hmybmny.github.io/hexo-theme-concise/tags/%E5%85%B3%E7%BE%BD/"/>
+      <category term="关羽" scheme="https://hmybmny.github.io/tags/%E5%85%B3%E7%BE%BD/"/>
     
   </entry>
   
