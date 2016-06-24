@@ -9,6 +9,9 @@ Execute the following command and modify `theme` in `_config.yml` to `concise`.
 ```
 git clone https://github.com/HmyBmny/hexo-theme-concise.git themes/concise
 ```
+## Usage
+
+https://hmybmny.github.io/hexo-theme-concise/2016/06/10/usage/
 
 ## Update
 
