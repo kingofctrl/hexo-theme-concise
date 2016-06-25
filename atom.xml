@@ -5,7 +5,7 @@
   <link href="/hexo-theme-concise/atom.xml" rel="self"/>
   
   <link href="https://hmybmny.github.io/"/>
-  <updated>2016-06-24T16:42:34.633Z</updated>
+  <updated>2016-06-25T04:23:48.598Z</updated>
   <id>https://hmybmny.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://hmybmny.github.io/2016/06/10/usage/"/>
     <id>https://hmybmny.github.io/2016/06/10/usage/</id>
     <published>2016-06-09T16:00:00.000Z</published>
-    <updated>2016-06-24T16:42:34.633Z</updated>
+    <updated>2016-06-25T04:23:48.598Z</updated>
     
     <content type="html">&lt;h2 id=&quot;hexo-theme-concise&quot;&gt;&lt;a href=&quot;#hexo-theme-concise&quot; class=&quot;headerlink&quot; title=&quot;hexo-theme-concise&quot;&gt;&lt;/a&gt;hexo-theme-concise&lt;/h2&gt;&lt;h3 id=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;a href=&quot;#一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot; class=&quot;headerlink&quot; title=&quot;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到V2EX讨论，谢谢！&quot;&gt;&lt;/a&gt;一个简单美丽的hexo主题，加入了部分material元素，希望追求简单的你会喜欢，如果有任何想法或建议，欢迎到&lt;a href=&quot;http://v2ex.com/t/288048&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;V2EX&lt;/a&gt;讨论，谢谢！&lt;/h3&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;执行以下命令并更新_confing.yml，将theme改为concise&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/HmyBmny/hexo-theme-concise.git themes/concise&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;p&gt;即可，此时你的文章格式应当类似于以下格式：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;title: 你的文章标题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;date: 文章发布时间&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tags:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 这是一个标签&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;category:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- 这是一个分类&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这一部分显示在你的主页上&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这一部分需要点击Read More ›才会显示&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;如果你的文章较长，并且没有使用&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;那么效果就会是这样的&lt;br&gt;&lt;a href=&quot;https://hmybmny.github.io/hexo-tag-video_cn/&quot;&gt;https://hmybmny.github.io/hexo-tag-video_cn/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;那么效果就会是这样的&lt;br&gt;&lt;a href=&quot;https://hmybmny.github.io/hexo-tag-tencent/&quot;&gt;https://hmybmny.github.io/hexo-tag-tencent/&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -159,7 +159,7 @@
     <link href="https://hmybmny.github.io/2016/06/01/guan-yu/"/>
     <id>https://hmybmny.github.io/2016/06/01/guan-yu/</id>
     <published>2016-05-31T16:00:00.000Z</published>
-    <updated>2016-06-24T13:50:12.349Z</updated>
+    <updated>2016-06-24T13:50:12.000Z</updated>
     
     <content type="html">&lt;p&gt;关羽（约160年?－220年）[1]，字云长，本字长生，司隶河东解人（今山西省运城市），约生于东汉桓帝延熹年间[2]，东汉末年三国时期刘备的重要将领。与张飞并称“万人敌”（见《三国志‧魏书‧程昱传》：“关羽、张飞皆万人敌也。”）。&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
