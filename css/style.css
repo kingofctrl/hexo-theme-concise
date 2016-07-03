@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background: #fff;
+  background: #f1f1f1;
   color: #444;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
@@ -116,8 +116,9 @@ a:hover {
 #header h2 {
   display: none;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1260px) {
   #header {
+    margin: 0 -30px 15px -30px;
     padding: 0 1em;
   }
 }
@@ -145,6 +146,11 @@ article {
   background: #fff;
   -webkit-box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
   box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+}
+@media screen and (max-width: 900px) {
+  article {
+    margin: 8px -10px 15px -10px;
+  }
 }
 article.page {
   padding-left: 20px;
@@ -564,6 +570,7 @@ article footer .addthis iframe {
 }
 @media screen and (max-width: 900px) {
   #sidebar {
+    margin: 8px -15px 15px -10px;
     float: none;
     width: 100%;
   }
