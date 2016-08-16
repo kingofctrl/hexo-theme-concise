@@ -1,5 +1,4 @@
 # Concise
-[![Build Status](https://travis-ci.org/HmyBmny/hexo-theme-concise.svg?branch=master)](https://travis-ci.org/HmyBmny/hexo-theme-concise)
 
 A beautiful and simple theme for ![hexo](https://github.com/hexojs/hexo). It is based on ![Light](https://github.com/hexojs/hexo-theme-light).
 
