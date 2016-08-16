@@ -10,9 +10,6 @@ Execute the following command and modify `theme` in `_config.yml` to `concise`.
 ```
 git clone https://github.com/HmyBmny/hexo-theme-concise.git themes/concise
 ```
-## Usage
-
-https://hmybmny.github.io/hexo-theme-concise/2016/06/10/usage/
 
 ## Update
 
@@ -60,7 +57,6 @@ google_analytics:
 ### Thanks
 
 ![hexo-theme-light](https://github.com/hexojs/hexo-theme-light)  
-![Material](http://www.google.com/design/spec/material-design/introduction.html)  
   
 ### LICENSE
 
